@@ -2,8 +2,8 @@
 
 /**
  * get_precision - Computes the accuratness for printing
- * @format: Format a string in which to print arguments
- * @i: prints a list of arguments.
+ * @format: Format a string in which to print args
+ * @i: prints a list of args.
  * @list: list of args.
  *
  * Return: Precision.

@@ -4,12 +4,12 @@
 /**
  * print_pointer - Prints a pointer variable
  * @types: Gives a list of arguments
- * @buffer: This buffer array handles print
+ * @buffer: This buffer array manipulates print
  * @flags: Computes active flags
  * @width: Gets width
  * @precision: Precision specification
- * @size: Specifize size
- * Return: Produces the number of char printed.
+ * @size: Defines size
+ * Return: Produces the number of chars.
  */
 int print_pointer(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
@@ -56,12 +56,12 @@ int print_pointer(va_list types, char buffer[],
 /**
  * print_non_printable - Prints ascii codes in hexadecimal of non printable chars
  * @types: Gives a list of arguments
- * @buffer: This buffer array handles print
+ * @buffer: This buffer array manipulates print
  * @flags: Computes active flags
  * @width: Gets width
  * @precision: Precision specification
- * @size: Specifize size
- * Return: Produces the number of char printed.
+ * @size: Defines size
+ * Return: Produces the number of chars.
  */
 int print_non_printable(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
@@ -96,12 +96,12 @@ int print_non_printable(va_list types, char buffer[],
 /**
  * print_reverse - Prints a reverse string.
  * @types: Gives a list of arguments
- * @buffer: This buffer array handles print
+ * @buffer: This buffer array manipulates print
  * @flags: Computes active flags
  * @width: Gets width
  * @precision: Precision specification
- * @size: Specifize size
- * Return: Produces the number of char printed.
+ * @size: Defines size
+ * Return: Produces the number of chars.
  */
 
 int print_reverse(va_list types, char buffer[],
@@ -139,12 +139,12 @@ int print_reverse(va_list types, char buffer[],
 /**
  * print_rot13string - Prints string in rot13.
  * @types: Gives a list of arguments
- * @buffer: This buffer array handles print
+ * @buffer: This buffer array manipulates print
  * @flags: Computes active flags
  * @width: Gets width
  * @precision: Precision specification
- * @size: Specifize size
- * Return: Produces the number of char printed.
+ * @size: Defines size
+ * Return: Produces the number of chars.
  */
 int print_rot13string(va_list types, char buffer[],
 	int flags, int width, int precision, int size)

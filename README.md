@@ -110,4 +110,4 @@ These are all the tasks of this project, the ones that are completed link to the
 
 ### Authors
 * **Anthony Gidambayi** - [gidambayiantony@gmail.com](https://github.com/gidambayiantony)
-* **Mary G** - [messagelordwill@gmail.com](https://github.com/marywamz)
+* **Mary G** - [mariwamuyu@gmail.com](https://github.com/marywamz)

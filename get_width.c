@@ -2,11 +2,11 @@
 
 /**
  * get_width - Computes the width
- * @format: Formats a string in which to print arguments.
- * @i: printed list of arguments.
- * @list: a list of arguments.
+ * @format: Formats a string in which to print args.
+ * @i: printed list of args.
+ * @list: a list of args.
  *
- * Return: width size.
+ * Return: Size of width.
  */
 int get_width(const char *format, int *i, va_list list)
 {

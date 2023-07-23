@@ -4,12 +4,12 @@
 /**
  * print_unsigned - Prints an unsigned number
  * @types: Gives a list of arguments
- * @buffer: This buffer array handles print
+ * @buffer: This buffer array manipulates print
  * @flags: Computes active flags
  * @width: Gets width
  * @precision: Precision specification
- * @size: Specifize size
- * Return: Produces the number of char printed.
+ * @size: Defines size
+ * Return: Produces the number of chars.
  */
 int print_unsigned(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
